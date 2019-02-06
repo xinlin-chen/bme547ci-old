@@ -1,4 +1,5 @@
-from tachycardia.py import is_tachycardic
+from tachycardia import is_tachycardic
+
 
 def test_is_tachycardic():
     ans_1 = is_tachycardic('tachycardic')
@@ -16,6 +17,7 @@ def test_3():
     ans_3 = is_tachycardic('tachycardic.')
     exp_3 = True
     assert ans_3 == exp_3
+
 
 def test_4():
     ans_4 = is_tachycardic('tachycardi')
