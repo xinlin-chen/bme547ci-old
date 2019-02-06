@@ -35,3 +35,9 @@ def test_6():
     ans_6 = is_tachycardic('TACHYCARDIC')
     exp_6 = True
     assert ans_6 == exp_6
+
+
+def test_7():
+    ans_7 = is_tachycardic(6)
+    exp_7 = False
+    assert ans_7 == exp_7
