@@ -6,6 +6,7 @@ def is_tachycardic(string_in):
         string = string_in.lower()
     else:
         return False
+
     if re.search('tachycardic', string):
         return True
     else:
