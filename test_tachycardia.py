@@ -23,3 +23,15 @@ def test_4():
     ans_4 = is_tachycardic('tachycardi')
     exp_4 = False
     assert ans_4 == exp_4
+
+
+def test_5():
+    ans_5 = is_tachycardic('TachyCardic  ')
+    exp_5 = True
+    assert ans_5 == exp_5
+
+
+def test_6():
+    ans_6 = is_tachycardic('TACHYCARDIC')
+    exp_6 = True
+    assert ans_6 == exp_6
